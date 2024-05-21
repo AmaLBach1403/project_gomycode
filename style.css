@@ -1,0 +1,161 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-text ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flex container for the list items */
+}
+
+.navbar-text li {
+    margin-right: 10px;
+    display: flex; /* Use flex container for each list item */
+    align-items: center; /* Align items vertically in the middle */
+}
+
+.navbar-text i {
+    margin-right: 5px;
+}
+
+body {
+
+   background: url('pink.jpg');
+    /* Ajustez la taille de l'image selon vos préférences */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn btn-outline-success{
+    background: black;
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-us form {
+    width: 40%;
+}
+
+
+.cadre {
+    border: 2px solid #000; /* Change the border properties as needed */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+
+  p {
+    text-align: center;
+    justify-content: center;
+
+  }
+
+
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%); /* Invert the icon color */
+  }
+
+  .nav-link:hover {
+    color: #fff; /* Change to your preferred hover color */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    font-size: 16px;
+    line-height: 1.6;
+}
+.intro-text {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the text horizontally */
+    text-align: center; /* Center the text within the container */
+    margin-bottom: 20px;
+
+}
+
+.welcome-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Adjust the text color as needed */
+}
+
+.highlight {
+    color: #af4688; /* Highlight color */
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Your Font', sans-serif;
+ }
+
+
+ form {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+ }
+ /* Add these styles to your existing style.css or in a new <style> tag in your HTML */
+
+
+.card:hover {
+    transform: scale(1.05); /* Add a slight zoom effect on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+body {
+    background-color: #f8f8f8; /* Use a light background color */
+}
+
+h3, h5 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Choose a playful font */
+}
+
+
+.footer {
+    background-color: #ffb6c1; /* Match the footer color with the navigation */
+}
+ 
+.btn-danger {
+    background-color: #ff6b81; /* Coral pink button color */
+    border-color: #ff6b81;
+  }
+
+
+h1 {
+    border-bottom: 2px solid #d3bec1; /* Coral pink border color */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .cadre {
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 15px; /* Rounded corners for the cadre */
+    margin-top: 20px; /* Add some margin at the top */
+  }
+  
+  /* Style the welcome text */
+  .advice {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #574240; /* Darker pink text color */
+  }
